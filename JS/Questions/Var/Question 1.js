@@ -13,7 +13,8 @@ var myNumber = 42;
 let myNumber = 42;
 
 
-console.log(myNumber)  
+// console.log(myNumber)  
+
 
 
 
