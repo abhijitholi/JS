@@ -9,4 +9,6 @@
 9 String indexOf            => indexOf, charAt
 10 Functions                => function
 11 Defining Function        => Hosting in function 
-video 12 
+12 Array                    => Write Array, Overwrite  Array
+
+yt 14
