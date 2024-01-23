@@ -8,4 +8,5 @@
 8 String Length             => String Property
 9 String indexOf            => indexOf, charAt
 10 Functions                => function
+11 Defining Function        => Hosting in function 
 video 12 
