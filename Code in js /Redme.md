@@ -10,5 +10,8 @@
 10 Functions                => function
 11 Defining Function        => Hosting in function 
 12 Array                    => Write Array, Overwrite  Array
-
-yt 14
+13 Push                     => push the value in the array
+14 Splice Function          => Remove values and add values in array
+15 Slice                    => not change original data make new object
+16 Array Reverse            => Array Reverse, Concat, join 
+17 2D array                 => inside array make more arrays
