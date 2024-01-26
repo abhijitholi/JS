@@ -15,3 +15,10 @@
 15 Slice                    => not change original data make new object
 16 Array Reverse            => Array Reverse, Concat, join 
 17 2D array                 => inside array make more arrays
+18 object                   => Use of Dot
+19 Accessing Obj            => Accessing Obj by []
+20 Nested Objects           => Object in object 
+21 Deleting Values          => Delete object value and objects
+22 Json                     => Json Data in console
+23 If else                  => use of If else
+24 Switch                   => use of Switch 
