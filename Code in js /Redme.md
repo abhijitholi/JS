@@ -22,3 +22,16 @@
 22 Json                     => Json Data in console
 23 If else                  => use of If else
 24 Switch                   => use of Switch 
+25 Truthy/Falsy Values      => Check the values
+26 equality                 => (==) vs (===) 
+27 conditional Operators    => condition ? True  :  false;
+28 Type of Keywords         => Check data types
+29 Type casting             => Changing the types
+30 String.split             => split the strings
+31 String lowercase         => toUpperCase() toLowerCase()
+32 String Immutability      => not change one value of the string
+33 string replace           => replace the string data 
+34 function chaining        => using many function 
+35 callback                 => call back function is reusable functions     
+
+
