@@ -1,0 +1,9 @@
+console.log(Math.abs(-2));
+console.log(Math.round(5.66));
+console.log(Math.floor(5.66));
+console.log(Math.ceil(5.46));
+console.log(Math.pow(2,5))
+console.log(Math.sqrt(2));
+console.log(Math.max(2,6,100,5));
+console.log(Math.min(2,6,100,5));
+console.log(Math.floor(Math.random()*1000000));

@@ -33,5 +33,5 @@
 33 string replace           => replace the string data 
 34 function chaining        => using many function 
 35 callback                 => call back function is reusable functions     
-
-
+36 setTimeout               => SetTime out is a function for the timeout
+37 Math                     => math floor random 
