@@ -35,3 +35,5 @@
 35 callback                 => call back function is reusable functions     
 36 setTimeout               => SetTime out is a function for the timeout
 37 Math                     => math floor random 
+38 Lexical Scope            => 
+39 for loop                 =>
