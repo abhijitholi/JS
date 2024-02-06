@@ -35,5 +35,12 @@
 35 callback                 => call back function is reusable functions     
 36 setTimeout               => SetTime out is a function for the timeout
 37 Math                     => math floor random 
-38 Lexical Scope            => 
-39 for loop                 =>
+38 Lexical Scope            => using globe value in functions
+39 for loop                 => this is a loop
+40 for of loop              => same but use full then loop
+41 While Loop               => This ia a loop
+42 Object                   => object Key, value, entires
+43 Reference copying        => using same memory 
+44 Shallow Copy             => Using Different memory 
+45 Deep Copy                => Using Different memory with the JSON
+46 Promise                  => 
