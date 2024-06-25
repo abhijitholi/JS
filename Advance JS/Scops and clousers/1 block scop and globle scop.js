@@ -31,7 +31,7 @@ var x = 200;
 // ****************  using let 
 for (let i=0; i<2000;i++){
 setTimeout(()=>{
-    //console.log(i)
+    console.log(i)
 },1000)
 }; // output => 1,2,3,4,5,6,.....................200
 
@@ -39,7 +39,7 @@ setTimeout(()=>{
 // ************** using var 
 for (var i=0; i<200;i++){
     setTimeout(()=>{
-        //console.log(i)
+        console.log(i)
     },1010)
     };// output => 200,200,200,200,200.....................200
     
