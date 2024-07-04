@@ -1,15 +1,67 @@
-<html>
-    <head>
-    </head>
-    <body>
-        <p>This is a pera.</p>
-        <p>Before the script...</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+           height: 200px;
+           width: auto;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        Hello World
+    </p>
+    <img src="https://images.unsplash.com/photo-1719813916318-6d80019a0065?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
 
- 
+    <h1>My First Web Page</h1>
+    <h2>My First Heading</h2>
+    <h3>My First Heading</h3>
+    <h4>My First Heading</h4>
+    <h5>My First Heading</h5>
+    <h6>My First Heading</h6>
 
-  <p>...After the script.</p>
-    </body>
-    <script>
-        alert('this is a alert.')
+
+<!-- 
+HTML Formatting Elements
+Formatting elements were designed to display special types of text:
+
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text    
+-->
+
+<p>This text is<b> bold</b></p>
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<img id="drag1" src="https://images.unsplash.com/photo-1658458791571-dd0d0bba07d6?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" draggable="true" ondragstart="drag(event)" width="336" height="69">
+
+</body>
+
+<script>
+    function allowDrop(ev) {
+      ev.preventDefault();
+    }
+    
+    function drag(ev) {
+      ev.dataTransfer.setData("text", ev.target.id);
+    }
+    
+    function drop(ev) {
+      ev.preventDefault();
+      var data = ev.dataTransfer.getData("text");
+      ev.target.appendChild(document.getElementById(data));
+    }
     </script>
+<script src="main.js"></script>
 </html>

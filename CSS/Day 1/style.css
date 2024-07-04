@@ -1,0 +1,110 @@
+img{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+.main_container{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    flex-wrap: wrap;
+    width: 500px;
+    border: 1px solid rgb(128, 117, 117);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px auto;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.container_text{
+    flex-wrap: wrap;
+    width: 500px;
+    height: auto;
+    margin: 20px auto;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgb(128, 117, 117);
+    border-radius: 10px;
+    padding: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(82, 36, 249);
+    color: aliceblue;
+
+}
+.container_text:hover{
+    width: 500px;
+    height: auto;
+    margin: 20px auto;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgb(128, 117, 117);
+    border-radius: 10px;
+    padding: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(241, 240, 245);
+    color: black;
+
+
+}
+
+button{
+   
+
+    background-color: Black;
+    margin: 20px auto;
+    width: 90%;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 20pc;
+    border: 0;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: rgb(82, 36, 249);
+    margin: 20px auto;
+
+    width: 90%;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 20pc;
+    border: 0;
+    cursor: pointer;
+    
+}
+
+.input_fild{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    margin: 10px;   
+    outline: none;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    height: auto;
+    font-size: 20px;
+}
+
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+
+}
